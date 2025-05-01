@@ -5,6 +5,7 @@ body{
     font-size: 20px;
 }
 
+/*titulos*/
 h1{
     text-align: center;
     font-size: 50px;
@@ -19,19 +20,73 @@ h3{
     color: #000000
 }
 
+/*tabela*/
 table{
     margin: 0 auto;
     border-collapse: collapse;
     width: 100%;
-    border: null;
+    width:50%;
+    border:0px solid rgb(58, 58, 58);
+    text-align:center
 }
 
-/*controle container*/
-
-.itens{
-    transition: .35s;
+/*button controle*/
+.button-pokedex{
+    background-color: #e93a13;
+    border: none;
+    color: #ffffff;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px; 
     cursor: pointer;
+    transition: .15s;
 }
+
+.button-treinador{
+    background-color: #f36d36;
+    border: none;
+    color: #ffffff;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .15s;
+}
+
+.button-login{
+    background-color: #e7bd44;
+    border: none;
+    color: #ffffff;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .15s;
+}
+
+.button-perfil{
+    background-color: #3bad63;
+    border: none;
+    color: #ffffff;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .15s;
+}
+
+
+button:hover{
+    background-color: #f2f2f2;
+    color: #000000;
+    transform: scale(1.05);
+}
+
+/*controle de cards*/
 
 .container{
     display: flex;
