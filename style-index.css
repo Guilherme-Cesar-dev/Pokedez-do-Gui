@@ -31,8 +31,7 @@ h4{
 table{
     margin: 0 auto;
     border-collapse: collapse;
-    width: 100%;
-    width:50%;
+    width: 0%;
     border:0px solid rgb(58, 58, 58);
     text-align:center
 }
@@ -41,6 +40,8 @@ table{
 
 .buttons{
     background-color: #d5d5d5;
+    width: 34.3%;
+    margin: 0 auto;
 }
 
 .button-pokedex{
@@ -56,9 +57,8 @@ table{
 }
 
 .button-pokedex:hover{
-    background-color: #e93a1382;
-    color: #000000;
-    transform: scale(1.05);
+    color: #ffffff;
+    transform: scale(1.1);
 }
 
 .button-treinador{
@@ -74,9 +74,8 @@ table{
 }
 
 .button-treinador:hover{
-    background-color: #f36d3682;
-    color: #000000;
-    transform: scale(1.05);
+    color: #ffffff;
+    transform: scale(1.1);
 }
 
 .button-login{
@@ -92,9 +91,8 @@ table{
 }
 
 .button-login:hover{
-    background-color: #e7bd4482;
-    color: #000000;
-    transform: scale(1.05);
+    color: #ffffff;
+    transform: scale(1.1);
 }
 
 .button-perfil{
@@ -110,9 +108,17 @@ table{
 }
 
 .button-perfil:hover{
-    background-color: #3bad6382;
-    color: #000000;
-    transform: scale(1.05);
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+/*titurlo*/
+.title{
+    text-align: center;
+    font-size: 30px;
+    color: #313131;
+    background-color: #ffffff;
+    width: 100%;
 }
 
 /*controle de cards*/
@@ -126,6 +132,7 @@ table{
 
 .container{
     transform: scale(0.7);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Aumentar tanto a img-pokemon quanto o card ao mesmo tempo */
@@ -172,10 +179,20 @@ table{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
     height: auto;
-    background-color: #ffffff;
-    width: 90%;
+    background-color: #f0f0f0;
+    width: 95%;
     margin: 0 auto;
+    box-shadow: #313131 0px 0px 10px;
 }
 
+/*informacoes*/
+
+.informacao-pagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #323232;
+    width: 100%;
+    margin: 0 auto;
+}
