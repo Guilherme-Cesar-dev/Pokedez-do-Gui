@@ -6,6 +6,22 @@ body{
     margin: 0;
 }
 
+/*imagem titulo*/
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.8); /* Reduz o tamanho da imagem para 50% */
+}
+
+.title-pokedex{
+    margin: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*titulos*/
 h1{
     text-align: center;
@@ -17,7 +33,8 @@ h1{
 h3{
     text-align: center;
     font-size: 35px;
-    color: #313131
+    color: #313131;
+    margin: 0;
 }
 
 h4{
@@ -135,8 +152,10 @@ table{
     color: #313131;
     background-color: #ffffff;
     width: 100%;
-    height: 44px;
+    height: 100%;
     margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 /*controle de cards*/
@@ -166,19 +185,13 @@ table{
 }
 
 .container:hover .img-pokemon {
-    transform: scale(1.3); /* Aumenta o tamanho da imagem em 50% */
+    transform: scale(1.15); /* Aumenta o tamanho da imagem em 50% */
 }
 
 .name{
-    font-size: 20px;
-    color: #313131;
-    text-align: center;
-    font-weight: bold;
-    background-color: #a1a1a1;
-    padding: 0.1px;
-    text-align: center;
-    font-size: 16px;
-    margin-bottom: auto;
+    padding: 0;
+    margin: 0;
+    position: left;
 }
 
 .pokemon-fav{

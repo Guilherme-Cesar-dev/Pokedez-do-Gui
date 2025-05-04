@@ -6,6 +6,22 @@ body{
     margin: 0;
 }
 
+/*imagem titulo*/
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.8); /* Reduz o tamanho da imagem para 50% */
+}
+
+.title-pokedex{
+    margin: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*titulos*/
 h1{
     text-align: center;
@@ -15,6 +31,12 @@ h1{
 }
 
 h3{
+    text-align: center;
+    font-size: 35px;
+    color: #313131
+}
+
+#pokedex{
     text-align: center;
     font-size: 35px;
     color: #313131
