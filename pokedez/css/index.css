@@ -1,5 +1,5 @@
 body{
-    background-color: #B3B3B3;
+    background-color: #dc172b;
     color: #fff;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
@@ -16,7 +16,7 @@ body{
 
 .title-pokedex{
     margin: 0;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,8 +55,8 @@ table{
 /*button controle*/
 
 .buttons{
-    background-color: #d5d5d5;
-    width: 50%;
+    background-color: #d7d7d7;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -145,13 +145,19 @@ table{
     transform: scale(1.1);
 }
 
+/*navegação*/
+
+.navegacao{
+    background-color: #a01120;
+}
 /*titurlo*/
 .title{
     text-align: center;
     font-size: 30px;
-    color: #313131;
-    background-color: #ffffff;
-    width: 100%;
+    color: #d6aa2d;
+    background-image: url("../images/progress-bar.png");
+    background-color: #e5c943;
+    width: 90%;
     height: 100%;
     margin: 0 auto;
     margin-bottom: 10px;
@@ -165,33 +171,29 @@ table{
     justify-content: center;
     align-items: center;
     gap: 10px;
+    width: 30%; /* Define a largura como 50% do contêiner pai */
+    height: 500px; /* Define a altura como 50% do contêiner pai */
 }
 
 .container{
-    transform: scale(0.7);
+    transform: scale(0.5);
     box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Aumentar tanto a img-pokemon quanto o card ao mesmo tempo */
 .container:hover, .img-pokemon:hover {
     opacity: 4;
-    transform: scale(1); /* Aumenta o tamanho em 10% */
+    transform: scale(0.7); /* Aumenta o tamanho em 10% */
     transition: transform 0.3s ease; /* Transição suave */
 }
 
-/* Ajuste para aumentar o card e a img-pokemon ao mesmo tempo no hover */
-.container:hover {
-    transform: scale(0.9); /* Aumenta o tamanho do card em 20% */
-}
-
 .container:hover .img-pokemon {
-    transform: scale(1.15); /* Aumenta o tamanho da imagem em 50% */
+    transform: scale(1.05); /* Aumenta o tamanho da imagem em 50% */
 }
 
 .name{
     padding: 0;
     margin: 0;
-    position: left;
 }
 
 .pokemon-fav{
@@ -202,7 +204,7 @@ table{
 }
 
 .informacao{
-    background-color: #30A7D7;
+    background-color: #16a4f1;
     padding: 5px;
     justify-content: center;
 }
@@ -213,10 +215,12 @@ table{
     justify-content: center;
     align-items: center;
     height: auto;
-    background-color: #f0f0f0;
+    background-image: url("../images/container_bg.png");
+    background-color: #d5d5d5;
     width: 95%;
     margin: 0 auto;
     box-shadow: #313131 0px 0px 10px;
+    flex-wrap: wrap;
 }
 
 /*informacoes*/
@@ -225,7 +229,8 @@ table{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #323232;
+    background-color: #222222;
     width: 100%;
-    margin: 0 auto;
+    margin: auto;
+    margin-top: 10px;
 }
