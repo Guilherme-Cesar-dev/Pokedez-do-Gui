@@ -1,5 +1,5 @@
 body{
-    background-color: #B3B3B3;
+    background-color: #dc172b;
     color: #fff;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
@@ -16,7 +16,7 @@ body{
 
 .title-pokedex{
     margin: 0;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,13 +33,8 @@ h1{
 h3{
     text-align: center;
     font-size: 35px;
-    color: #313131
-}
-
-#pokedex{
-    text-align: center;
-    font-size: 35px;
-    color: #313131
+    color: #313131;
+    margin: 0;
 }
 
 h4{
@@ -60,8 +55,8 @@ table{
 /*button controle*/
 
 .buttons{
-    background-color: #d5d5d5;
-    width: 50%;
+    background-color: #d7d7d7;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -148,4 +143,94 @@ table{
 .button-perfil:hover{
     color: #ffffff;
     transform: scale(1.1);
+}
+
+/*navegação*/
+
+.navegacao{
+    background-color: #a01120;
+}
+/*titurlo*/
+.title{
+    text-align: center;
+    font-size: 30px;
+    color: #d6aa2d;
+    background-image: url("../images/progress-bar.png");
+    background-color: #e5c943;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/*controle de cards*/
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 30%; /* Define a largura como 50% do contêiner pai */
+    height: 500px; /* Define a altura como 50% do contêiner pai */
+}
+
+.container{
+    transform: scale(0.5);
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Aumentar tanto a img-pokemon quanto o card ao mesmo tempo */
+.container:hover, .img-pokemon:hover {
+    opacity: 4;
+    transform: scale(0.7); /* Aumenta o tamanho em 10% */
+    transition: transform 0.3s ease; /* Transição suave */
+}
+
+.container:hover .img-pokemon {
+    transform: scale(1.05); /* Aumenta o tamanho da imagem em 50% */
+}
+
+.name{
+    padding: 0;
+    margin: 0;
+}
+
+.pokemon-fav{
+    background: #a1a1a1;
+    transition: .35s;
+    cursor: pointer;
+    padding-top: 1px;
+}
+
+.informacao{
+    background-color: #16a4f1;
+    padding: 5px;
+    justify-content: center;
+}
+
+/*controle roll*/
+.roll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-image: url("../images/container_bg.png");
+    background-color: #d5d5d5;
+    width: 95%;
+    margin: 0 auto;
+    box-shadow: #313131 0px 0px 10px;
+    flex-wrap: wrap;
+}
+
+/*informacoes*/
+
+.informacao-pagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
 }

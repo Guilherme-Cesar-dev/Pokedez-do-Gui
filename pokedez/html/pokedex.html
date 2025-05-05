@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokedex</title>
+    <title>Inicio</title>
     <link rel="stylesheet" href="../css/pokedex.css">
 </head>
 
@@ -14,12 +14,14 @@
         <img src="../images/Pokedex-Gui.png" alt="Pokedex.Gui" class="logo">
     </div>
 
+<div class="navegacao">
+
 <!-- configuração das barra de opções-->
 
     <div class="buttons">
         <table>
             <tr>
-                <th><button type="button" onclick="window.location.href='index.html'" class="button-inicio">Inicio</button></th>
+                <th><button type="button" onclick="window.location.href='index.html'" class="button-inicio">Inicio</button></th>            
                 <th><button type="button" onclick="window.location.href='pokedex.html'" class="button-pokedex">Pokedex</button></th>
                 <th><button type="button" onclick="window.location.href='treinadores.html'"  class="button-treinador">Treinador</button></th>
                 <th><button type="button" onclick="window.location.href='login.html'"  class="button-login">Login</button></th>
@@ -28,8 +30,114 @@
         </table>
     </div>
 
-    <h2 id="pokedex">Pokedex</h2>
+<!--titulo cards-->
 
+    <div class="title">
+        <h3>Pokedex</h3>
+    </div>
 
+<!--Roda de cards (meus favoritos)-->
+
+    <section class="roll">
+        
+        <div class="card">
+            <div class="container">
+                <div class="pokemon-fav">
+                        <h3 class="name">Marowak</h3>
+                    <div class="img-pokemon">
+                        <img src="../images/Marowak.png" alt="Venusaur">
+                    </div>
+                    <div class="informacao">
+                        <h4>Tipo: Panta/Poison</h4>
+                        <h4>Altura: 2.0 m</h4>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="container">
+                <div class="pokemon-fav">
+                        <h3 class="name">Farfetch'd</h3>
+                    <div class="img-pokemon">
+                        <img src="../images/Farfetch'd.png" alt="Charizard">
+                    </div>
+                    <div class="informacao">
+                        <h4>Tipo: Fogo/Voador</h4>
+                        <h4>Altura: 1.70 m</h4>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="container">
+                <div class="pokemon-fav">
+                        <h3 class="name">Arcanine</h3>
+                    <div class="img-pokemon">
+                        <img src="../images/Arcanine.png" alt="Blastoise">
+                    </div>
+                    <div class="informacao">
+                        <h4>Tipo: Água</h4>
+                        <h4>Altura: 1.60 m</h4>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="container">
+                <div class="pokemon-fav">
+                        <h3 class="name">Articuno</h3>
+                    <div class="img-pokemon">
+                        <img src="../images/Articuno.png" alt="Venusaur">
+                    </div>
+                    <div class="informacao">
+                        <h4>Tipo: Panta/Poison</h4>
+                        <h4>Altura: 2.0 m</h4>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="container">
+                <div class="pokemon-fav">
+                        <h3 class="name">Charizard</h3>
+                    <div class="img-pokemon">
+                        <img src="../images/Charizard.png" alt="Charizard">
+                    </div>
+                    <div class="informacao">
+                        <h4>Tipo: Fogo/Voador</h4>
+                        <h4>Altura: 1.70 m</h4>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="container">
+                <div class="pokemon-fav">
+                        <h3 class="name">Jolteon</h3>
+                    <div class="img-pokemon">
+                        <img src="../images/Jolteon.png" alt="Blastoise">
+                    </div>
+                    <div class="informacao">
+                        <h4>Tipo: Água</h4>
+                        <h4>Altura: 1.60 m</h4>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+    </section>
+
+<!--Informações pag e criador-->
+
+    <div class="informacao-pagina">
+        <h4>Guilherme César @2025</h4>
+    </div>
+
+</div>
 </body>
 </html>
