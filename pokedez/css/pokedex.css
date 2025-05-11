@@ -6,8 +6,8 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    width: 30%; /* Define a largura como 50% do contêiner pai */
-    height: 500px; /* Define a altura como 50% do contêiner pai */
+    width: 237.5px;
+    height: 329.02px;
 }
 
 .container{
@@ -43,4 +43,39 @@
     color: #313131;
     font-size: 45px;
     text-align: left;
+}
+
+/* Caregue mais */
+
+.load-more{
+    text-align: center;
+}
+
+#load-more{
+    display: inline-block;
+    margin-top: 30px;
+    background-color: black;
+    color: #ffffff;
+    padding: 20px 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/*controle roll*/
+
+.roll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-image: url(../images/container_bg.png);
+    background-color: #d5d5d5;
+    width: 95%;
+    margin: 0 auto;
+    box-shadow: #313131 0px 0px 10px;
+    flex-wrap: wrap;
+    text-align: center;
 }

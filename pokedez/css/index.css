@@ -51,3 +51,20 @@ h4{
     flex-direction: column;
     align-items: center;
 }
+
+
+/*controle roll*/
+
+.roll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-image: url("../images/container_bg.png");
+    background-color: #d5d5d5;
+    width: 95%;
+    margin: 0 auto;
+    box-shadow: #313131 0px 0px 10px;
+    flex-wrap: wrap;
+    text-align: center;
+}
