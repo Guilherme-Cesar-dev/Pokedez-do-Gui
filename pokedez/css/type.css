@@ -1,0 +1,271 @@
+/* controle de tipos de pokemons */
+
+#bug {
+    width: 20%;
+    background-color: #9cbf2f;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#dark {
+    width: 20%;
+    background-color: #5c586d;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#dragon {
+    width: 20%;
+    background-color: #0171c6;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#electric {
+    width: 20%;
+    background-color: #f6d750;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#fairy {
+    width: 20%;
+    background-color: #f190e5;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#fighting {
+    width: 20%;
+    background-color: #cf3f69;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#fire {
+    width: 20%;
+    background-color: #fda14e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#flying {
+    width: 20%;
+    background-color: #9cafe9;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#ghost {
+    width: 20%;
+    background-color: #6c6ec4;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#grass {
+    width: 20%;
+    background-color: #5ebd63;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#ground {
+    width: 20%;
+    background-color: #df783f;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#ice {
+    width: 20%;
+    background-color: #86dcce;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#normal {
+    width: 20%;
+    background-color: #a2a69c;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#poison {
+    width: 20%;
+    background-color: #ad68c6;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#psychic {
+    width: 20%;
+    background-color: #f57283;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#rock { 
+    width: 20%;
+    background-color: #cbc194;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#steel {
+    width: 20%;
+    background-color: #4d8e90;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#water {
+    width: 20%;
+    background-color: #67b2dd;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
