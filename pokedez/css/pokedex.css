@@ -6,14 +6,19 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    width: 237.5px;
-    height: 329.02px;
+    width: 210px;
+    height: 300px;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
 }
 
+
 .container{
-    transform: scale(0.5);
+    background-color: aliceblue;
+    transform: scale(0.45);
     box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
-    background-color: azure;
 }
 
 /* controle carta */
@@ -45,6 +50,11 @@
     text-align: left;
 }
 
+h4{
+    display: flex;
+    float: left;
+}
+
 /* Caregue mais */
 
 .load-more{
@@ -53,10 +63,9 @@
 
 #load-more{
     display: inline-block;
-    margin-top: 30px;
     background-color: black;
     color: #ffffff;
-    padding: 20px 50px;
+    padding: 10px 30px;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 900;
@@ -78,4 +87,15 @@
     box-shadow: #313131 0px 0px 10px;
     flex-wrap: wrap;
     text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.roll-2{
+    background-image: url(../images/container_bg.png);
+    background-color: #d5d5d5;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
