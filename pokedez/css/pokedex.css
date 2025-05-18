@@ -24,7 +24,7 @@
 }
 
 .container:hover{
-    transform: scale(0.46);
+    transform: scale(0.48);
 }
 /* controle carta */
 
@@ -64,6 +64,7 @@ h4{
 
 .load-more{
     text-align: center;
+    margin: 0 auto;
 }
 
 #load-more{
@@ -78,6 +79,10 @@ h4{
     font-size: 15px;
 }
 
+#load-more:hover{
+    background-color: #313131;
+}
+
 /*controle roll*/
 
 .roll{
@@ -87,19 +92,21 @@ h4{
     height: auto;
     background-image: url(../images/container_bg.png);
     background-color: #d5d5d5;
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     box-shadow: #313131 0px 0px 10px;
     flex-wrap: wrap;
     text-align: center;
-    padding-bottom: 10px;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 
 .roll-2{
     background-image: url(../images/container_bg.png);
     background-color: #d5d5d5;
-    width: 98.18%;
+    width: 90%;
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
