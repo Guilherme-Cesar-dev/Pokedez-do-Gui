@@ -1,0 +1,54 @@
+h4 {
+    color: #313131;
+}
+
+.card {
+    
+}
+
+.container {
+    background-color: #fff;
+    width: 240px;
+    height: 310px;
+    border-radius: 5px;
+    transform: scale(0.9);
+}
+
+.container:hover {
+    transform: scale(1.0);
+}
+/* controle carta */
+
+.img-treinador {
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+#name {
+    margin: 0;
+    color: #313131;
+    display: flex;
+    justify-content: center;
+    background-color: #8fbc8f;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.roll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-image: url(../images/container_bg.png);
+    background-color: #d5d5d5;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: #313131 0px 0px 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}

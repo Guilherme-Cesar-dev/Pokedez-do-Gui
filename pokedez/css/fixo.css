@@ -65,6 +65,9 @@ a{
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 
 #button-inicio{
@@ -156,6 +159,8 @@ a{
 
 .navegacao{
     background-color: #a01120;
+    padding-top: 10px;
+    box-shadow: 300px 500px 500px 500px #610a12;
 }
 
 /*informacoes*/
@@ -175,7 +180,7 @@ a{
 .title{
     text-align: center;
     font-size: 30px;
-    color: #d6aa2d;
+    color: #313131;
     background-image: url("../images/progress-bar.png");
     background-color: #e5c943;
     width: 90%;

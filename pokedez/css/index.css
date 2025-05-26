@@ -10,7 +10,7 @@ h4{
     align-items: center;
     gap: 10px;
     width: 30%; /* Define a largura como 50% do contêiner pai */
-    height: 500px; /* Define a altura como 50% do contêiner pai */
+    height: 400px; /* Define a altura como 50% do contêiner pai */
 }
 
 .container{
@@ -38,14 +38,15 @@ h4{
 }
 
 .pokemon-fav{
-    background: #a1a1a1;
+    background: #ffffff;
     transition: .35s;
     cursor: pointer;
     padding-top: 1px;
+    border-radius: 20px;
 }
 
 .informacao{
-    background-color: #16a4f1;
+    background-color: #007dc0;
     margin-top: 10px;
     display: flex;
     flex-direction: column;
@@ -64,7 +65,7 @@ h4{
     background-color: #d5d5d5;
     width: 95%;
     margin: 0 auto;
-    box-shadow: #313131 0px 0px 10px;
+    box-shadow: #313131 0px 0px 20px;
     flex-wrap: wrap;
     text-align: center;
 }
