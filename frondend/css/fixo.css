@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #dc172b;
     color: #dedede;
     font-family: 'Courier New', Courier, monospace;
@@ -7,21 +7,21 @@ body{
 }
 
 /*titulos*/
-#title{
+#title {
     text-align: center;
     font-size: 35px;
     color: #313131;
     margin: 0;
 }
 
-#cred{
+#cred {
     text-align: center;
     font-size: 20px;
     color: #dedede;
     margin: 26.6px;
 }
 
-#creator{
+#creator {
     text-align: center;
     font-size: 20px;
     color: #dedede;
@@ -30,21 +30,22 @@ body{
 
 /*creditos (<a>)*/
 
-a{
-    text-decoration: none;    
+a {
+    text-decoration: none;
 }
 
 
 /*imagem titulo*/
 
-.logo{
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: scale(0.8); /* Reduz o tamanho da imagem para 50% */
+    transform: scale(0.8);
+    /* Reduz o tamanho da imagem para 50% */
 }
 
-#title-pokedex{
+#title-pokedex {
     margin: 0;
     display: flex;
     justify-content: center;
@@ -54,8 +55,8 @@ a{
 
 /*button controle*/
 
-.buttons{
-    background-color: #d7d7d7;
+.buttons {
+    background-color: #ffffff;
     width: 100%;
     margin: 0;
     margin-right: 10px;
@@ -68,43 +69,44 @@ a{
     position: fixed;
     top: 0;
     z-index: 1000;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
 }
 
-#button-inicio{
+#button-inicio {
     background-color: #9c9c9c;
     border: none;
     color: #ffffff;
     padding: 10px 40px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px; 
+    font-size: 16px;
     cursor: pointer;
     transition: .15s;
 }
 
-#button-inicio:hover{
+#button-inicio:hover {
     color: #ffffff;
     transform: scale(1.1);
 }
 
-#button-pokedex{
+#button-pokedex {
     background-color: #e93a13;
     border: none;
     color: #ffffff;
     padding: 10px 40px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px; 
+    font-size: 16px;
     cursor: pointer;
     transition: .15s;
 }
 
-#button-pokedex:hover{
+#button-pokedex:hover {
     color: #ffffff;
     transform: scale(1.1);
 }
 
-#button-treinador{
+#button-treinador {
     background-color: #f36d36;
     border: none;
     color: #ffffff;
@@ -116,12 +118,12 @@ a{
     transition: .15s;
 }
 
-#button-treinador:hover{
+#button-treinador:hover {
     color: #ffffff;
     transform: scale(1.1);
 }
 
-#button-login{
+#button-pokemon {
     background-color: #e7bd44;
     border: none;
     color: #ffffff;
@@ -133,12 +135,12 @@ a{
     transition: .15s;
 }
 
-#button-login:hover{
+#button-pokemon:hover {
     color: #ffffff;
     transform: scale(1.1);
 }
 
-#button-perfil{
+#button-perfil {
     background-color: #3bad63;
     border: none;
     color: #ffffff;
@@ -150,38 +152,37 @@ a{
     transition: .15s;
 }
 
-#button-perfil:hover{
+#button-perfil:hover {
     color: #ffffff;
     transform: scale(1.1);
 }
 
 /*navegação*/
 
-.navegacao{
+.navegacao {
     background-color: #a01120;
     padding-top: 10px;
     box-shadow: 300px 500px 500px 500px #610a12;
+    padding-bottom: 20px;
 }
 
 /*informacoes*/
 
-.informacao-pagina{
+.informacao-pagina {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #222222;
     width: 100%;
-    margin: auto;
-    margin-top: 10px;
 }
 
 /*titurlo*/
 
-.title{
+.title {
     text-align: center;
     font-size: 30px;
     color: #313131;
-    background-image: url("../images/progress-bar.png");
+    background-image: url("../img/progress-bar.png");
     background-color: #e5c943;
     width: 90%;
     height: 100%;
