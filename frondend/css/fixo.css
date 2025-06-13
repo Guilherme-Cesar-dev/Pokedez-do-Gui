@@ -166,16 +166,40 @@ a {
     padding-bottom: 20px;
 }
 
-/*informacoes*/
+/*footer*/
 
-.informacao-pagina {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #222222;
-    width: 100%;
+footer {
+    padding: 60px 0 0 0;
+    margin-top: 40px;
+    background-color: #181821;
 }
 
+#footer-section {
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    padding: 0 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#footer-section h4 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#footer-section p {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#footer-section a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
 /*titurlo*/
 
 .title {

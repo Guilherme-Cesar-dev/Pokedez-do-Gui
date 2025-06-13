@@ -1,10 +1,25 @@
-h4{
+h2 {
+    color: #313131;
+    margin: 0;
+}
+
+h3 {
+    color: #313131;
+    margin: 0;
+}
+
+h4 {
     margin-top: 5px;
 }
 
-/*controle de cards*/
+h5 {
+    color: #313131;
+    margin: 0;
+}
 
-.card{
+/*controle de cards(pokemon e jogos)*/
+
+.card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +28,7 @@ h4{
     height: 400px; /* Define a altura como 50% do contêiner pai */
 }
 
-.container{
+.container {
     transform: scale(0.5);
     box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
 }
@@ -21,15 +36,25 @@ h4{
 /* Aumentar tanto a img-pokemon quanto o card ao mesmo tempo */
 .container:hover, .img-pokemon:hover {
     opacity: 4;
-    transform: scale(0.7); /* Aumenta o tamanho em 10% */
+    transform: scale(0.57); /* Aumenta o tamanho em 10% */
     transition: transform 0.3s ease; /* Transição suave */
 }
 
-.container:hover .img-pokemon {
-    transform: scale(1.05); /* Aumenta o tamanho da imagem em 50% */
+.container:hover .img-pokemon{
+    transform: scale(1.07); /* Aumenta o tamanho da imagem em 50% */
 }
 
-.name{
+.container:hover, .img-game:hover {
+    opacity: 4;
+    transform: scale(0.57); /* Aumenta o tamanho em 10% */
+    transition: transform 0.3s ease; /* Transição suave */
+}
+
+.container:hover .img-game{
+    transform: scale(1.01); /* Aumenta o tamanho da imagem em 50% */
+}
+
+.name {
     padding: 0;
     margin: 0;
     color: #313131;
@@ -37,7 +62,7 @@ h4{
     text-align: center;
 }
 
-.pokemon-fav{
+.pokemon-fav, .pokemon-game {
     background: #ffffff;
     transition: .35s;
     cursor: pointer;
@@ -45,7 +70,7 @@ h4{
     border-radius: 20px;
 }
 
-.informacao{
+.informacao {
     background-color: #007dc0;
     margin-top: 10px;
     display: flex;
@@ -53,10 +78,17 @@ h4{
     align-items: center;
 }
 
+.informacao-game {
+    background-color: #2a8c26;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /*controle roll*/
 
-.roll{
+.roll {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,4 +100,20 @@ h4{
     box-shadow: #313131 0px 0px 20px;
     flex-wrap: wrap;
     text-align: center;
+}
+
+/*controle area de texto*/
+
+.text {
+    width: 95%;
+    height: 90%;
+    background-color: #e1e1e1;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px
+}
+
+.img-text {
+
 }
