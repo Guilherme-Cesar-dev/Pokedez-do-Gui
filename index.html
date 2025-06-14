@@ -3,29 +3,27 @@
 <!--DevydSilva codigo-->
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0"; url="pokedex/html/index.html">
+    <meta http-equiv="refresh" content="0; url=../Pokedez-do-Gui/frontend/pages/index.html">
     <title>Redirecionando...</title>
     <script>
         // Verificação adicional para garantir o redirecionamento
         window.onload = function() {
             const path = window.location.pathname;
-            if (!path.includes('pokedez/html/login.html') && !path.includes('pokedez/html/index.html')) {
-                window.location.replace('pokedez/html/index.html');
+            if (!path.includes('../Pokedez-do-Gui/frontend/pages/index.html')) {
+                window.location.replace('../Pokedez-do-Gui/frontend/pages/index.html');
             }
-        };
+        }
     </script>
-    <link rel="stylesheet" href="../Pokedez-do-Gui/pokedez/css/direcionando.css">
+    <link rel="stylesheet" href="../Pokedez-do-Gui/frontend/css/direcionando.css">
 </head>
 <body>
-    
     <div class="line">
         <div class="container">
-            <p class='text'><b>Se você não for redirecionado automaticamente, <a href="pokedez/html/index.html">clique aqui</a>.</b></p>
+            <p class='text'><b>Se você não for redirecionado automaticamente, <a href="../Pokedez-do-Gui/frontend/pages/index.html">clique aqui</a>.</b></p>
         </div>
     </div>
-
     <div class="white">
         <p class="botton">.</p>
     </div>
 </body>
-</html> 
+</html>
