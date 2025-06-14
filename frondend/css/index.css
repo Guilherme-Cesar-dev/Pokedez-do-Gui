@@ -24,8 +24,10 @@ h5 {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    width: 30%; /* Define a largura como 50% do contêiner pai */
-    height: 400px; /* Define a altura como 50% do contêiner pai */
+    width: 30%;
+    /* Define a largura como 50% do contêiner pai */
+    height: 400px;
+    /* Define a altura como 50% do contêiner pai */
 }
 
 .container {
@@ -34,24 +36,32 @@ h5 {
 }
 
 /* Aumentar tanto a img-pokemon quanto o card ao mesmo tempo */
-.container:hover, .img-pokemon:hover {
+.container:hover,
+.img-pokemon:hover {
     opacity: 4;
-    transform: scale(0.57); /* Aumenta o tamanho em 10% */
-    transition: transform 0.3s ease; /* Transição suave */
+    transform: scale(0.57);
+    /* Aumenta o tamanho em 10% */
+    transition: transform 0.3s ease;
+    /* Transição suave */
 }
 
-.container:hover .img-pokemon{
-    transform: scale(1.07); /* Aumenta o tamanho da imagem em 50% */
+.container:hover .img-pokemon {
+    transform: scale(1.07);
+    /* Aumenta o tamanho da imagem em 50% */
 }
 
-.container:hover, .img-game:hover {
+.container:hover,
+.img-game:hover {
     opacity: 4;
-    transform: scale(0.57); /* Aumenta o tamanho em 10% */
-    transition: transform 0.3s ease; /* Transição suave */
+    transform: scale(0.57);
+    /* Aumenta o tamanho em 10% */
+    transition: transform 0.3s ease;
+    /* Transição suave */
 }
 
-.container:hover .img-game{
-    transform: scale(1.01); /* Aumenta o tamanho da imagem em 50% */
+.container:hover .img-game {
+    transform: scale(1.01);
+    /* Aumenta o tamanho da imagem em 50% */
 }
 
 .name {
@@ -62,7 +72,8 @@ h5 {
     text-align: center;
 }
 
-.pokemon-fav, .pokemon-game {
+.pokemon-fav,
+.pokemon-game {
     background: #ffffff;
     transition: .35s;
     cursor: pointer;
@@ -112,8 +123,4 @@ h5 {
     padding: 10px;
     box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
     margin: 20px
-}
-
-.img-text {
-
 }
