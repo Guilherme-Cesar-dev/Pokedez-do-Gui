@@ -167,39 +167,16 @@ a {
 }
 
 /*footer*/
+    footer {
+        background-color:#313131;
+    }
 
-footer {
-    padding: 60px 0 0 0;
-    margin-top: 40px;
-    background-color: #181821;
-}
+    .footer-container {
+        display: grid;
+        align-self: center;
+        grid
+    }
 
-#footer-section {
-    margin: auto;
-    display: flex;
-    gap: 40px;
-    padding: 0 20px;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-
-#footer-section h4 {
-    color: #ffffff;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-#footer-section p {
-    color: #ffffff;
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-#footer-section a {
-    color: #ffffff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
 /*titurlo*/
 
 .title {
