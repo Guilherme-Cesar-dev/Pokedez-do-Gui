@@ -8,8 +8,9 @@ body {
 
 /*titulos*/
 #title {
+    font-family: "Roboto Slab", serif;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     color: #313131;
     margin: 0;
 }
@@ -54,6 +55,7 @@ a {
     align-items: center;
 }
 
+/* APRENDER A CONTROLAR 
 #title-pokedex div {
     flex: 1;
 }
@@ -63,11 +65,12 @@ a {
         flex: 1.01;
     }
 }
+*/
 
 /*button controle*/
 
 .buttons {
-    background-color: #ffffff;
+    background-color: #ffffffc3;
     width: 100%;
     margin: 0;
     margin-right: 10px;
@@ -180,6 +183,7 @@ a {
 /*footer*/
 footer {
     background-color: #313131;
+    font-family: "Cascadia Code", monospace;
 }
 
 .footer-container {
@@ -205,13 +209,13 @@ footer {
 }
 
 #footer-section p {
-    font-size: 15px;
+    font-size: 12px;
     color: #8a8a8a;
     margin-bottom: 5px;
 }
 
 #footer-section a {
-    font-size: 20px;
+    font-size: 15px;
     color: #8a8a8a;
     margin-bottom: 10px;
     text-decoration: none;
@@ -226,6 +230,7 @@ li {
     list-style: none;
     padding: 0;
     margin-bottom: 5px;
+    color: #8a8a8a;
 }
 
 #footer-section i {
