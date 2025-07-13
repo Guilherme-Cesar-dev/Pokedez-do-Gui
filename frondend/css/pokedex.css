@@ -43,6 +43,15 @@
     text-align: left;
     margin: 0;
     margin-left: 30px;
+}
+
+#number-f {
+    font-family: "Flexo-Bold", arial, sans-serif;
+    font-size: 30px;
+    color: #a3a3a3;
+    text-align: left;
+    margin: 0;
+    margin-left: 30px;
     display: flex;
     float: left;
 }
@@ -57,12 +66,12 @@
     text-align: left;
 }
 
-#criador {
-    color: #a4a4a4;
+.criador {
+    color: #000000;
     font-size: 33px;
-    position: left;
+    position: right;
     margin: 0;
-    width: 70%;
+    width: 130%;
 }
 
 .type {

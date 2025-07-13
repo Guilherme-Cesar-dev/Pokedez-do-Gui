@@ -269,3 +269,20 @@
     border: 0;
     border-radius: 10px;
 }
+
+/* controle de criadores */
+
+#poizon {
+    font-family: 'Flexo-Bold', arial, sans-serif;
+    font-size: 28px;
+    width: 30%;
+    background-color: darkmagenta;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-left: 62%;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}

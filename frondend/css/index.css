@@ -36,6 +36,13 @@ h5 {
     box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
 }
 
+.img-pokemon {
+    opacity: 0.7;
+    padding-left: 25px;
+    border-radius: 100%;
+    background-image: url("../img/pokebola.png");
+}
+
 /* Aumentar tanto a img-pokemon quanto o card ao mesmo tempo */
 .container:hover,
 .img-pokemon:hover {
@@ -139,4 +146,9 @@ h5 {
 .text img {
     opacity: 0.7;
     margin-left: 50px;
+}
+
+.text a {
+    text-decoration: none;
+    color: #474747;
 }
