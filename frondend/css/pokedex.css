@@ -1,7 +1,6 @@
-
 /*controle de cards */
 
-.card{
+.card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +14,7 @@
 }
 
 
-.container{
+.container {
     background-color: aliceblue;
     transform: scale(0.45);
     box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
@@ -23,20 +22,21 @@
     border-radius: 10px;
 }
 
-.container:hover{
+.container:hover {
     transform: scale(0.48);
 }
+
 /* controle carta */
 
-.img-pokemon{
+.img-pokemon {
     width: 100%;
     height: 100%;
     border-radius: 10px;
     background-color: #bdbdbd;
-    transform:scale(0.9);
+    transform: scale(0.9);
 }
 
-#number{
+#number {
     font-family: "Flexo-Bold", arial, sans-serif;
     font-size: 30px;
     color: #a3a3a3;
@@ -45,7 +45,7 @@
     margin-left: 30px;
 }
 
-#name{
+#name {
     padding: 0;
     margin: 0;
     margin-top: 10px;
@@ -55,19 +55,19 @@
     text-align: left;
 }
 
-h4{
+.type {
     display: flex;
     float: left;
 }
 
 /* Caregue mais */
 
-.load-more{
+.load-more {
     text-align: center;
     margin: 0 auto;
 }
 
-#load-more{
+#load-more {
     display: inline-block;
     background-color: black;
     color: #ffffff;
@@ -79,13 +79,13 @@ h4{
     font-size: 15px;
 }
 
-#load-more:hover{
+#load-more:hover {
     background-color: #313131;
 }
 
 /*controle roll*/
 
-.roll{
+.roll {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,7 +103,7 @@ h4{
 }
 
 
-.roll-2{
+.roll-2 {
     background-image: url(../images/container_bg.png);
     background-color: #d5d5d5;
     width: 90%;

@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Perfil</title>
+
+    <!--Css arquivos-->
     <link rel="stylesheet" href="../css/fixo.css">
     <link rel="stylesheet" href="../css/perfil.css">
+
+    <!-- Font Awesome para ícones sociais -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!--=========== FONTS ===============-->
+    <!--Cascadia Code-->
+    <link href="https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap" rel="stylesheet">
+    <!--Quicksand-->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <!--Roboto Slab-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -13,8 +26,8 @@
 <!--Titulo da pagina-->
 
     <div id="title-pokedex">
-        <a href="../html/index.html">
-        <img  src="../images/Pokedex-Gui.png" alt="Pokedex.Gui" class="logo"></a>
+        <a href="../pages/index.html">
+        <img  src="../img/Pokedex-Gui.png" alt="Pokedex.Gui" class="logo"></a>
     </div>
 
 <div class="navegacao">
@@ -29,7 +42,8 @@
                 
                 <button type="button" onclick="window.location.href='treinadores.html'"  id="button-treinador">Treinador</button>
                 
-                <button type="button" onclick="window.location.href='login.html'"  id="button-login">Login</button>
+                <button type="button" onclick="window.location.href='pokemonFriends.html'"
+                id="button-pokemon">Pokemons</button>
                 
                 <button type="button" onclick="window.location.href='perfil.html'"  id="button-perfil">Perfil</button>
             
@@ -46,14 +60,79 @@
     <section class="roll">
         
     </section>
+   
+    <!--Informações pag e criador-->
+    <footer>
 
-<!--Informações pag e criador-->
+        <div class="footer-container">
 
-    <div class="informacao-pagina">
-        <h4>Guilherme César @2025</h4>
-        <a href="../html/creditos.html"><h4>Creditos...</h4></a>
-    </div>
+            <!--Sobre-->
+            <div id="footer-section">
+                <h4>Sobre...</h4>
+                <p id="info-p">Feita com o objetivo de aprender e melhorar o uso de HTML, CSS, JS entre outras
+                    tecnologias.<br><b>Desenvolvida com inspirações do site oficial e uma pokédex de um
+                        professor.</b><br></p>
+                <p></p><a href="SaibaMais.html">Saiba mais...</a></p>
+            </div>
 
+            <!---Links Rapidos-->
+            <div id="footer-section">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="#title-pokedex">Title</a></li>
+                    <li><a href="#Pokemon-resumo">Pokemon</a></li>
+                    <li><a href="#Pokemon-jogos">Pokemon Jogos</a></li>
+                    <li><a href="#Pokemon-favoritos">Favoritos do Gui</a></li>
+                </ul>
+            </div>
+
+            <!--Criador-->
+            <div id="footer-section">
+                <h4>Criador</h4>
+                <ul>
+                    <li>
+                        <p><i class="fab fa-github"></i><a href="https://github.com/Guilherme-Cesar-dev">GitHub</a></p>
+                    </li>
+                    <li>
+                        <p><i class="fab fa-youtube"></i><a href="https://www.youtube.com/@cantodocesar">Youtube</a></p>
+                    </li>
+                    <li>
+                        <p><i class="fab fa-linkedin"></i><a
+                                href="https://www.linkedin.com/in/guilherme-cesar-14179125a/">LinkedIn</a></p>
+                    </li>
+                    <li>
+                        <p><i class="fab fa-instagram"></i><a
+                                href="https://www.instagram.com/aquele_guilherme_/">Instagram</a></p>
+                    </li>
+                </ul>
+            </div>
+
+            <!--Colaboradores-->
+            <div id="footer-section">
+                <h4>Colaboradores</h4>
+                <ul>
+                    <li>Aa</li>
+                    <li>Ab</li>
+                    <li>Ac</li>
+                    <li>Ad</li>
+                </ul>
+            </div>
+
+            <!--Creditos-->
+            <div id="footer-section">
+                <h4>Creditos</h4>
+                <p>text exemple</p>
+            </div>
+
+        </div>
+
+        <!--Rodapé-->
+        <div class="footer-bottom">
+            <p>&copy; 2025 Pokedex.Gui</p>
+            <p>Desenvolvido por <a href="text.html">Guilherme César.</a></p>
+        </div>
+
+    </footer>
 </div>
 </body>
 </html>
