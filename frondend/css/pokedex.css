@@ -43,6 +43,8 @@
     text-align: left;
     margin: 0;
     margin-left: 30px;
+    display: flex;
+    float: left;
 }
 
 #name {
@@ -53,6 +55,14 @@
     color: #313131;
     font-size: 45px;
     text-align: left;
+}
+
+#criador {
+    color: #a4a4a4;
+    font-size: 33px;
+    position: left;
+    margin: 0;
+    width: 70%;
 }
 
 .type {
