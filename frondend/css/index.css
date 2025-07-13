@@ -54,6 +54,7 @@ h5 {
 }
 
 .container:hover .img-pokemon {
+    opacity: 1.0;
     transform: scale(1.07);
     /* Aumenta o tamanho da imagem em 50% */
 }
