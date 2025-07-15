@@ -39,7 +39,7 @@ function renderPokemons() {
   }
 }
 
-fetch('/backend/pokemons.json')
+fetch('https://guilherme-cesar-dev-server.github.io/Pokemons/Pokemons.json') //caso esteja alterando pelo codigo usa o de backend
   .then(response => response.json())
   .then(data => {
     pokemons = data;
