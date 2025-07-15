@@ -124,6 +124,7 @@
     background-image: url(../images/container_bg.png);
     background-color: #d5d5d5;
     width: 90%;
+    
     margin: 0 auto;
     flex-wrap: wrap;
     text-align: center;
@@ -134,7 +135,7 @@
     border-top-left-radius: 5px;
 }
 
-.roll-2 {
+.load-more{
     background-image: url(../images/container_bg.png);
     background-color: #d5d5d5;
     width: 90%;

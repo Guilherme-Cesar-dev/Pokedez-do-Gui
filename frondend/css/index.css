@@ -120,6 +120,8 @@ h5 {
     box-shadow: #313131 0px 0px 20px;
     flex-wrap: wrap;
     text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 /*controle area de texto*/
