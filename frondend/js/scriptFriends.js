@@ -1,6 +1,7 @@
 let pokemons = [];
 let currentIndex = 0;
 const pageSize = 8;
+const URL = 'https://guilherme-cesar-dev-server.github.io/Pokemons/PokemonsFriends.json';
 
 function renderPokemons() {
   const container = document.getElementById('pokemon-list');
@@ -40,7 +41,7 @@ function renderPokemons() {
   }
 }
 
-fetch('/backend/pokemonsFriends.json')
+fetch(URL)
   .then(response => response.json())
   .then(data => {
     pokemons = data;
