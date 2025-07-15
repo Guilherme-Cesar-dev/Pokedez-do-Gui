@@ -31,10 +31,10 @@ function renderPokemons() {
   if (currentIndex >= pokemons.length) {
     document.getElementById('load-more').style.display = 'none';
     const endMsg = document.createElement('p');
-    endMsg.textContent = 'Não existem mais Pokemons =( ';
+    endMsg.textContent = 'Acabou =(';
     endMsg.style.textAlign = 'center';
     endMsg.style.fontWeight = 'bold';
-    endMsg.style.color = '#a4a4a4';
+    endMsg.style.color = '#424242';
     container.appendChild(endMsg);
   }
 }

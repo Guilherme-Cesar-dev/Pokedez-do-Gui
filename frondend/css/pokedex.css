@@ -26,6 +26,18 @@
     transform: scale(0.48);
 }
 
+
+.container-f {
+    background-color: aliceblue;
+    transform: scale(0.40);
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
+    border: 0;
+    border-radius: 10px;
+}
+
+.container-f:hover {
+    transform: scale(0.45);
+}
 /* controle carta */
 
 .img-pokemon {
@@ -113,14 +125,14 @@
     background-color: #d5d5d5;
     width: 90%;
     margin: 0 auto;
-    box-shadow: #313131 0px 0px 10px;
     flex-wrap: wrap;
     text-align: center;
     padding: 0;
     padding-top: 10px;
     padding-bottom: 20px;
+    border-top-right-radius: 5px; 
+    border-top-left-radius: 5px;
 }
-
 
 .roll-2 {
     background-image: url(../images/container_bg.png);
@@ -129,4 +141,6 @@
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
