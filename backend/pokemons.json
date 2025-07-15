@@ -1,0 +1,124 @@
+[
+  {
+    "id": "0001",
+    "nome": "Bulbasaur",
+    "tipos": ["Grass", "Poison"],
+    "imagem": "../img/pokemons/001.png"
+  },
+  {
+    "id": "0002",
+    "nome": "Ivysaur",
+    "tipos": ["Grass", "Poison"],
+    "imagem": "../img/pokemons/002.png"
+  },
+  {
+    "id": "0003",
+    "nome": "Venusaur",
+    "tipos": ["Grass", "Poison"],
+    "imagem": "../img/pokemons/003.png"
+  },
+  {
+    "id": "0004",
+    "nome": "Charmander",
+    "tipos": ["Fire"],
+    "imagem": "../img/pokemons/004.png"
+  },
+  {
+    "id": "0005",
+    "nome": "Charmeleon",
+    "tipos": ["Fire"],
+    "imagem": "../img/pokemons/005.png"
+  },
+  {
+    "id": "0006",
+    "nome": "Charizard",
+    "tipos": ["Fire","Flying"],
+    "imagem": "../img/pokemons/006.png"
+  },
+  {
+    "id": "0007",
+    "nome": "Squirtle",
+    "tipos": ["Water"],
+    "imagem": "../img/pokemons/007.png"
+  },
+  {
+    "id": "0008",
+    "nome": "Wartortle",
+    "tipos": ["Water"],
+    "imagem": "../img/pokemons/008.png"
+  },
+  {
+    "id": "0009",
+    "nome": "Blastoise",
+    "tipos": ["Water"],
+    "imagem": "../img/pokemons/009.png"
+  },
+  {
+    "id": "0010",
+    "nome": "Caterpie",
+    "tipos": ["Bug"],
+    "imagem": "../img/pokemons/010.png"
+  },
+  {
+    "id": "0011",
+    "nome": "Metapod",
+    "tipos": ["Bug"],
+    "imagem": "../img/pokemons/011.png"
+  },
+  {
+    "id": "0012",
+    "nome": "Butterfree",
+    "tipos": ["Bug","Flying"],
+    "imagem": "../img/pokemons/012.png"
+  },
+
+  {
+    "id": "0013",
+    "nome": "Weedle",
+    "tipos": ["Bug","Poison"],
+    "imagem": "../img/pokemons/013.png"
+  },
+  {
+    "id": "0014",
+    "nome": "Kakuna",
+    "tipos": ["Bug","Poison"],
+    "imagem": "../img/pokemons/014.png"
+  },
+  {
+    "id": "0015",
+    "nome": "Beedrill",
+    "tipos": ["Bug","Poison"],
+    "imagem": "../img/pokemons/015.png"
+  },
+  {
+    "id": "0016",
+    "nome": "Pidgey",
+    "tipos": ["Normal","Flying"],
+    "imagem": "../img/pokemons/016.png"
+  },
+
+  {
+    "id": "0017",
+    "nome": "Pidgeotto",
+    "tipos": ["Normal","Flying"],
+    "imagem": "../img/pokemons/017.png"
+  },
+  {
+    "id": "0018",
+    "nome": "Pidgeot",
+    "tipos": ["Normal","Flying"],
+    "imagem": "../img/pokemons/018.png"
+  },
+  {
+    "id": "0633",
+    "nome": "Deino",
+    "tipos": ["Dark","Dragon"],
+    "imagem": "../img/pokemons/633.png"
+  },
+  {
+    "id": "0000",
+    "nome": "TESTE",
+    "tipos": [""],
+    "imagem": "../img/pokemons/001.png"
+  }
+]
