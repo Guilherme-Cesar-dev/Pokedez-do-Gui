@@ -1,13 +1,13 @@
-let pokemons = [];
+let treinador = [];
 let currentIndex = 0;
 const pageSize = 8;
 const URL = 'https://guilherme-cesar-dev-server.github.io/Pokemons/Treinador.json';
 
-function renderPokemons() {
+function renderTreinador() {
   const container = document.getElementById('treinador-list');
   let html = '';
-  const nextPokemons = pokemons.slice(currentIndex, currentIndex + pageSize);
-  nextPokemons.forEach(pokemon => {
+  const nextTreinador = treinador.slice(currentIndex, currentIndex + pageSize);
+  nextTreinador.forEach(treinador => {
     html += `
       <!--${treinador.nome}-->
       <div class="card">
@@ -28,7 +28,7 @@ function renderPokemons() {
   currentIndex += pageSize;
 
   // Verifica se chegou ao fim
-  if (currentIndex >= pokemons.length) {
+  if (currentIndex >= treinador.length) {
     document.getElementById('load-more').style.display = 'none';
     const endMsg = document.createElement('p');
     endMsg.textContent = 'Acabou =(';
@@ -42,10 +42,10 @@ function renderPokemons() {
 fetch(URL) //caso esteja alterando pelo codigo usa o de backend
   .then(response => response.json())
   .then(data => {
-    pokemons = data;
+    treinador = data;
     currentIndex = 0;
     document.getElementById('treinador-list').innerHTML = '';
-    renderPokemons();
+    renderTreinador();
   });
 
-document.getElementById('load-more').addEventListener('click', renderPokemons);
+document.getElementById('load-more').addEventListener('click', renderTreinador);
