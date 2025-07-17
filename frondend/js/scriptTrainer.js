@@ -17,6 +17,7 @@ function renderPokemons() {
             </div>
             <div class="treinador" id="${treinador.regiao}">
                 <h3 id="name">${treinador.nome}</h3>
+                <h5 id="realName">${treinador.nomereal}<h5>
                 <h4 id="region">${treinador.regiao}<h4>
             </div>
         </div>

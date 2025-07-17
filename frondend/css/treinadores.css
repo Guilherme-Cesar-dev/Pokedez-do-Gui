@@ -51,6 +51,11 @@
     margin: 0;
 }
 
+#realName {
+    font-size: 5px;
+    margin: 0;
+}
+
 #region {
     font-size: 15px;
     margin: 0;
