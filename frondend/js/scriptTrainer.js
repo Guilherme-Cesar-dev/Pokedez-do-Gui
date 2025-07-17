@@ -9,7 +9,6 @@ function renderTreinador() {
   const nextTreinador = treinador.slice(currentIndex, currentIndex + pageSize);
   nextTreinador.forEach(treinador => {
     html += `
-      <!--${treinador.nome}-->
       <div class="card">
         <div class="container">
             <div class="img-treinador">
