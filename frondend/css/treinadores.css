@@ -60,3 +60,26 @@
     font-size: 15px;
     margin: 0;
 }
+
+/* Caregue mais */
+
+.load-more {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#load-more {
+    display: inline-block;
+    background-color: black;
+    color: #ffffff;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#load-more:hover {
+    background-color: #313131;
+}
