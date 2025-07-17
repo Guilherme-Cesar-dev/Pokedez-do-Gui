@@ -286,3 +286,104 @@
     border: 0;
     border-radius: 10px;
 }
+
+/* controle de região */
+
+#Kanto, #kanto {
+    font-family: 'Flexo-Bold', arial, sans-serif;
+    font-size: 28px;
+    background: linear-gradient(to right, red, blue);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Johto, #johto {
+    font-family: 'Flexo-Bold', arial, sans-serif;
+    font-size: 28px;
+    background: linear-gradient(to right, gold, gray);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Hoenn, #hoenn {
+    font-family: 'Flexo-Bold', arial, sans-serif;
+    font-size: 28px;
+    background: linear-gradient(to right, darkblue, darkred);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Sinnoh, #sinnoh {
+    font-family: 'Flexo-Bold', arial, sans-serif;
+    font-size: 28px;
+    background: linear-gradient(to right, hotpink, aquamarine);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Unova, #unova {
+    font-family: 'Flexo-Bold', arial, sans-serif;
+    font-size: 28px;
+    background: linear-gradient(to right, black, white);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Kalos, #kalos {
+    font-family: 'Flexo-Bold', arial, sans-serif;
+    font-size: 28px;
+    background: linear-gradient(to right, Darkred, DodgerBlue);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Alola, #alola {
+    font-family: 'Flexo-Bold', arial, sans-serif;
+    font-size: 28px;
+    background: linear-gradient(to right, Goldenrod, MidnightBlue);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Galar, #galar {
+    font-family: 'Flexo-Bold', arial, sans-serif;
+    font-size: 28px;
+    background: linear-gradient(to right, indianred, darkkhaki,royalblue);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Paldea, #paldea {
+    font-family: 'Flexo-Bold', arial, sans-serif;
+    font-size: 28px;
+    background: linear-gradient(to right, red, blueviolet, indigo);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
