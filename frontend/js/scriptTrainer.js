@@ -1,13 +1,13 @@
 let treinador = [];
 let currentIndex = 0;
 const pageSize = 8;
-const URL = 'https://guilherme-cesar-dev-server.github.io/Pokemons/Treinador.json';
+const URL = 'https://guilherme-cesar-dev-server.github.io/Pokemons/Treinadores.json';
 
-function renderTreinador() {
+function renderTreinadores() {
   const container = document.getElementById('treinador-list');
   let html = '';
-  const nextTreinador = treinador.slice(currentIndex, currentIndex + pageSize);
-  nextTreinador.forEach(treinador => {
+  const nextTreinadores = treinador.slice(currentIndex, currentIndex + pageSize);
+  nextTreinadores.forEach(treinador => {
     html += `
       <div class="card">
         <div class="container">
@@ -16,8 +16,8 @@ function renderTreinador() {
             </div>
             <div class="treinador" id="${treinador.regiao}">
                 <h3 id="name">${treinador.nome}</h3>
-                <h5 id="realName">${treinador.nomereal}<h5>
-                <h4 id="region">${treinador.regiao}<h4>
+                <h4 id="realName">${treinador.nomereal}</h4>
+                <h4 id="region">${treinador.regiao}</h4>
             </div>
         </div>
       </div>
@@ -44,7 +44,7 @@ fetch(URL) //caso esteja alterando pelo codigo usa o de backend
     treinador = data;
     currentIndex = 0;
     document.getElementById('treinador-list').innerHTML = '';
-    renderTreinador();
+    renderTreinadores();
   });
 
-document.getElementById('load-more').addEventListener('click', renderTreinador);
+document.getElementById('load-more').addEventListener('click', renderTreinadores);
