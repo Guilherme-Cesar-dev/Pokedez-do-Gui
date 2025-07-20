@@ -36,7 +36,7 @@
     justify-content: center;
     align-items: center;
     height: auto;
-    background-image: url(https://github.com/Guilherme-Cesar-Dev-Server/Pokemons/img/Assets/container_bg.png);
+    background-image: url("https://raw.githubusercontent.com/Guilherme-Cesar-Dev-Server/Pokemons/refs/heads/main/img/Assets/container_bg.png");
     background-color: #d5d5d5;
     width: 90%;
     margin: 0 auto;
@@ -87,7 +87,7 @@
 }
 
 .load-more{
-    background-image: url(https://github.com/Guilherme-Cesar-Dev-Server/Pokemons/img/Assets/container_bg.png);
+    background-image: url("https://raw.githubusercontent.com/Guilherme-Cesar-Dev-Server/Pokemons/refs/heads/main/img/Assets/container_bg.png");
     background-color: #d5d5d5;
     width: 90%;
     margin: 0 auto;
