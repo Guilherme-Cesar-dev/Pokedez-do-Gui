@@ -7,7 +7,9 @@
     <title>Pokémons</title>
 
     <!-- Icon -->
-    <link rel="icon" href="../img/pokebola.png" type="image/x-icon">
+    <link rel="icon"
+        href="https://raw.githubusercontent.com/Guilherme-Cesar-Dev-Server/Pokemons/refs/heads/main/img/Assets/pokebola.png"
+        type="image/x-icon">
 
     <!--Css arquivos-->
     <link rel="stylesheet" href="../css/fixo.css">
@@ -45,8 +47,9 @@
 
             <button type="button" onclick="window.location.href='pokedex.html'" id="button-pokedex">Pokédex</button>
 
-            <button type="button" onclick="window.location.href='treinadores.html'" id="button-treinador">Treinador</button>
- 
+            <button type="button" onclick="window.location.href='treinadores.html'"
+                id="button-treinador">Treinador</button>
+
             <button type="button" onclick="window.location.href='#'" id="button-pokemon">Pokémons</button>
 
             <button type="button" onclick="window.location.href='perfil.html'" id="button-perfil">Perfil</button>
@@ -57,31 +60,26 @@
     <main>
 
         <!--conteudo da pagina-->
-        <nav class="navegacao">
+        <nav class="navegacao" id="pokedex-friends">
 
-                <!--titulo cards-->
-                <div class="title">
-                    <h3>Pokémons de Amigos</h3>
+            <!--titulo cards-->
+            <div class="title">
+                <h3>Pokémons de Amigos</h3>
+            </div>
+
+            <!--Cartas/PokemonsAmigos-->
+            <section>
+                <div class="roll" id="pokemon-list">
+                    <!--Adicionados pelo Js-->
                 </div>
-
-                <!--Cartas/PokemonsAmigos-->
-                <section>
-                    <div class="roll" id="pokemon-list">
-                        <!--Adicionados pelo Js-->
-                    </div>
-                    <div class="load-more">
-                        <button id="load-more">Load More</button>
-                    </div>
-                </section>
-                
-            
-                    
-                
+                <div class="load-more">
+                    <button id="load-more">Load More</button>
+                </div>
+            </section>
 
         </nav>
 
     </main>
-
 
     <!--Informações pag e criador-->
     <footer>
@@ -101,10 +99,9 @@
             <div id="footer-section">
                 <h4>Links Rápidos</h4>
                 <ul>
-                    <li><a href="#title-pokedex">Title</a></li>
-                    <li><a href="#Pokemon-resumo">Pokemon</a></li>
-                    <li><a href="#Pokemon-jogos">Pokemon Jogos</a></li>
-                    <li><a href="#Pokemon-favoritos">Favoritos do Gui</a></li>
+                    <li><a href="#title-pokedex">Pokedex.Gui</a></li>
+                    <li><a href="#pokedex-friends">Pokémons</a></li>
+                    <li><a href="inicio.html">Inicio</a></li>
                 </ul>
             </div>
 

@@ -7,7 +7,9 @@
     <title>Treinadores</title>
 
     <!-- Icon -->
-    <link rel="icon" href="../img/pokebola.png" type="image/x-icon">
+    <link rel="icon"
+        href="https://raw.githubusercontent.com/Guilherme-Cesar-Dev-Server/Pokemons/refs/heads/main/img/Assets/pokebola.png"
+        type="image/x-icon">
 
     <!--Css arquivos-->
     <link rel="stylesheet" href="../css/treinadores.css">
@@ -29,15 +31,15 @@
 
 <body>
 
-    <!--Titulo da pagina-->
+    <header>
 
-    <div id="title-pokedex">
+        <!--Titulo da pagina-->
 
-        <a href="../pages/index.html">
-            <img src="../img/Pokedex-Gui-O.png" alt="Pokedex.Gui" class="logo"></a>
-    </div>
+        <div id="title-pokedex">
 
-    <nav class="navegacao">
+            <a href="../pages/index.html">
+                <img src="../img/Pokedex-Gui-O.png" alt="Pokedex.Gui" class="logo"></a>
+        </div>
 
         <!-- configuração das barra de opções-->
 
@@ -49,11 +51,16 @@
 
             <button type="button" onclick="window.location.href='#'" id="button-treinador">Treinador</button>
 
-            <button type="button" onclick="window.location.href='pokemonFriends.html'" id="button-pokemon">Pokémons</button>
+            <button type="button" onclick="window.location.href='pokemonFriends.html'"
+                id="button-pokemon">Pokémons</button>
 
             <button type="button" onclick="window.location.href='perfil.html'" id="button-perfil">Perfil</button>
 
         </div>
+
+    </header>
+
+    <nav class="navegacao" id="treinadores">
 
         <!--titulo cards-->
 
@@ -61,7 +68,7 @@
             <h3>Treinadores</h3>
         </div>
 
-        <!--Roda de cards (treinadores)-->
+        <!--Cards (treinadores)-->
 
         <section>
             <div class="roll" id="treinador-list">
@@ -92,10 +99,9 @@
             <div id="footer-section">
                 <h4>Links Rápidos</h4>
                 <ul>
-                    <li><a href="#title-pokedex">Title</a></li>
-                    <li><a href="#Pokemon-resumo">Pokemon</a></li>
-                    <li><a href="#Pokemon-jogos">Pokemon Jogos</a></li>
-                    <li><a href="#Pokemon-favoritos">Favoritos do Gui</a></li>
+                    <li><a href="#title-pokedex">Pokedex.Gui</a></li>
+                    <li><a href="#treinadores">Treinadores</a></li>
+                    <li><a href="inicio.html">Inicio</a></li>
                 </ul>
             </div>
 
@@ -147,6 +153,7 @@
 
     </footer>
 
-        <script src="../js/scriptTrainer.js"></script>
-</body> 
+    <script src="../js/scriptTrainer.js"></script>
+</body>
+
 </html>
