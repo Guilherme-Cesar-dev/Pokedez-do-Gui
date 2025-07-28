@@ -16,7 +16,7 @@ function renderPokemons() {
           </div>
           <div class="pokemon">
             <h1 id="number-f">N° ${pokemon.id}</h1>
-            <h2 class="criador" id="${pokemon.criador}">${pokemon.criador}</h2>
+            <a href="${pokemon.link}"><h2 class="criador" id="${pokemon.criador}">${pokemon.criador}</h2></a>
             <div class="informacao">
               <h3 id="name">${pokemon.nome}</h3>
               ${pokemon.tipos.map(tipo => `<h4 class="type" id="${tipo}">${tipo}</h4>`).join('')}
