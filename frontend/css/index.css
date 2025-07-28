@@ -37,10 +37,9 @@ h5 {
 }
 
 .img-pokemon {
-    opacity: 0.7;
     padding-left: 25px;
     border-radius: 100%;
-    background-image: url("https://raw.githubusercontent.com/Guilherme-Cesar-Dev-Server/Pokemons/refs/heads/main/img/Assets/pokebola.png");
+    background-image: url("https://raw.githubusercontent.com/Guilherme-Cesar-Dev-Server/Pokemons/refs/heads/main/img/Assets/pokebola1_2.png");
 }
 
 /* Aumentar tanto a img-pokemon quanto o card ao mesmo tempo */
