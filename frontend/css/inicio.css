@@ -10,7 +10,7 @@ h3 {
 
 
 h4 {
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 h5 {
@@ -33,7 +33,8 @@ h5 {
 
 .container {
     transform: scale(0.5);
-    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 40px;
 }
 
 .img-pokemon {
@@ -73,7 +74,8 @@ h5 {
 }
 
 .name {
-    padding: 0;
+    font-family: 'Flexo-Bold', sans-serif;
+    padding-top: 10px;
     margin: 0;
     color: #313131;
     font-size: 35px;
@@ -86,15 +88,17 @@ h5 {
     transition: .35s;
     cursor: pointer;
     padding-top: 1px;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .informacao {
-    background-color: #007dc0;
     margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-bottom-right-radius: 25px ;
+    border-bottom-left-radius: 25px ;
+    opacity: 0.8;
 }
 
 .informacao-game {
